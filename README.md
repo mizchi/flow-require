@@ -11,16 +11,17 @@ use `.flow.js` extension
 ## How to use
 
 ```js
-# use
-require('flow-require')()
+// simple use case
+require('flow-require')();
 
-# use your react-tools option
+// with react-tools option
 require('flow-require')({
+  extension: '.flow.js'
   harmony: true,
-	sourceMap: true,
-	sourceFilename: 'source.js',
+  sourceMap: true,
+  sourceFilename: 'source.map',
   stripTypes: true
-})
+});
 ```
 
 Default Option is `{harmony: true, stripTypes: true}`
