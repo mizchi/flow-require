@@ -1,10 +1,14 @@
 # flow-require
 
+Transfrom flowtype code on common.js require
+
+```
+npm install flow-require --save
+```
 
 use `.flow.js` extension
 
 ## How to use
-
 
 ```js
 # use
@@ -36,6 +40,6 @@ main.js
 
 ```js
 require('flow-require')()
-require('./a')
+var A = require('./a')
 ```
 
