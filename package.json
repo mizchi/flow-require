@@ -1,0 +1,17 @@
+{
+  "name": "flow-require",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react-tools": "^0.12.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  }
+}
